@@ -1,0 +1,57 @@
+/* Estilo global para o body, ou para o seletor da classe do contêiner que envolve todo o conteúdo */
+.container {
+    background-image: url("/assets/img/fundoSombra.jpg");
+    background-size: cover; /* Faz a imagem cobrir todo o tamanho do contêiner */
+    background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+    background-repeat: no-repeat; /* Evita repetições da imagem */
+    height: 120vh; /* Ajusta a altura do contêiner para ocupar toda a altura da tela */ 
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 88px;
+    height: 100vh; /* Ajusta a altura do contêiner para ocupar toda a altura da tela */ 
+    background-size: cover; /* Faz a imagem cobrir todo o tamanho do contêiner */
+    background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+    background-repeat: no-repeat; /* Evita repetições da imagem */
+  }
+  
+  form {
+    width: 600px; /* Aumenta a largura da barra de pesquisa */
+    border-radius: 30px; /* Deixa a barra de pesquisa mais arredondada */
+    background-color: #ECECEC; /* Define a cor de fundo da barra de pesquisa */
+    padding: 5px 15px; /* Adiciona espaço interno à barra de pesquisa */
+    background-size: cover; /* Faz a imagem cobrir todo o tamanho do contêiner */
+    background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+    background-repeat: no-repeat; /* Evita repetições da imagem */
+  }
+  
+  input {
+    width: 400px;
+    border-radius: 30px; /* Deixa o botão mais arredondado */
+    background-size: cover; /* Faz a imagem cobrir todo o tamanho do contêiner */
+    background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+    background-repeat: no-repeat; /* Evita repetições da imagem */
+    
+  }
+  
+  button {
+    background-color: aqua;
+    color: white;
+    border-radius: 30px; /* Deixa o botão mais arredondado */
+    margin-left: 10px; /* Adiciona um espaço entre o campo de pesquisa e o botão */
+  }
+
+  @media screen and (max-width: 768px) {
+    body, .container {
+      background-image: url("/assets/img/fundoSombraRd.jpg");
+      background-size: cover; /* Faz a imagem cobrir todo o tamanho do contêiner */
+      background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+      background-repeat: no-repeat; /* Evita repetições da imagem */
+      height: 100vh; /* Ajusta a altura do contêiner para ocupar toda a altura da tela */
+    }
+  }
+
+  

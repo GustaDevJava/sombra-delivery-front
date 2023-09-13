@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  height: 100vh; /* Definir a altura do container */
+  background-color: #F4B34A;
+  width: 100%;
+  height: 15%;
+}
+
+.logo {
+  position: absolute;
+  top: 0; /* Distância do topo da tela */
+  left: 50%; /* Distância da esquerda da tela */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.user {
+  position: absolute;
+  top: 3%; /* Distância do topo da tela */
+  right: 6%; /* Distância da direita da tela */
+  z-index: 2; /* Aumentar o z-index para que o botão fique acima da imagem de fundo */
+}
+
+.car {
+  position: absolute;
+  top: 3%; /* Distância do topo da tela */
+  right: 10%; /* Distância da direita da tela */
+  z-index: 2; /* Aumentar o z-index para que o botão fique acima da imagem de fundo */
+}
+
+mat-icon {
+  color: black;
+}
+
+  .container .logo {
+    max-width: 100%; /* Certificar-se de que a imagem não ultrapasse o container */
+    margin-top: 6rem;
+  }
+@media screen and (max-width: 768px) {
+.container {
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  height: 100vh; /* Definir a altura do container */
+  background-color: #F4B34A;
+  width: 100%;
+  height: 15%;
+}
+
+/* Ajustar o z-index para que o conteúdo do header fique acima da imagem de fundo */
+.logo {
+  position: absolute;
+  top: 0%; /* Distância do topo da tela */
+  left: 50%; /* Distância da esquerda da tela */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.user {
+  position: absolute;
+  top: 3%; /* Distância do topo da tela */
+  right: 0%; /* Distância da direita da tela */
+  z-index: 2; /* Aumentar o z-index para que o botão fique acima da imagem de fundo */
+}
+
+.car {
+  position: absolute;
+  top: 3%; /* Distância do topo da tela */
+  right: 15%; /* Distância da direita da tela */
+  z-index: 2; /* Aumentar o z-index para que o botão fique acima da imagem de fundo */
+}
+
+mat-icon {
+  color: black;
+}
+
+
+  .container .logo {
+    max-width: 100%; /* Certificar-se de que a imagem não ultrapasse o container */
+    margin-top: 6rem;
+  }
+}

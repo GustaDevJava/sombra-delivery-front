@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  width: 12%;
+  height: 100%;
+  background-color:#514339;
+  align-items: baseline;
+  justify-content: center;
+  position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+mat-icon{
+  color: white;
+}
+
+button{
+  margin-bottom: .7rem;
+  width: 140px; /* Aumente o tamanho do botão conforme necessário */
+  height: 40px;
+  background-color: #D3751D;
+
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  font-size: 16px;
+
+  text-align: center;
+  
+}
+
+.icon{
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto (à direita) */
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+.container {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color:#514339;
+    align-items: baseline;
+    justify-content: center;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  mat-icon{
+    color: white;
+  }
+
+button{
+    margin-bottom: .7rem;
+    width: 120px; /* Aumente o tamanho do botão conforme necessário */
+    height: 40px;
+    background-color: #D3751D;
+
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+.icon{
+    margin-right: 8px;
+}
+}
